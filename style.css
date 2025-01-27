@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(136, 90, 47);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+   background-size: cover;
+
+}
+img{
+    width: 320px;
+    animation: horseRunning 5s infinite linear;
+}
+@keyframes horseRunning{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right: 1600px;
+    }
+}
+img{
+    width: 320px;
+    animation: bmwE34 5s infinite linear;
+}
+@keyframes horseRunning{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right: 1600px;
+    }
+}
